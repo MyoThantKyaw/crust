@@ -1,0 +1,49 @@
+
+@font-face {
+    font-family: "Pyidaungsu" ;
+    src: url("styles/Pyidaungsu-2.5.3_Regular.ttf") ;
+}
+
+body, h3, h4, p, label{
+    font-family: "Pyidaungsu" !important;
+    src: url("styles/Pyidaungsu-2.5.3_Regular.ttf") ;
+}
+
+body{
+    margin: 0;
+    overflow-y: hidden;
+}
+
+.pusher{
+    background-image: linear-gradient(to bottom, #42a9d9 , #ebf2f5) !important;
+    /* background: saddlebrown !important; */
+}
+
+#view-3d{
+    
+}
+
+#toolbar{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    /* background: rgb(174, 157, 192); */
+    padding-right : 6px;
+    padding-left : 6px;
+
+    display: flex;
+    align-items: center;
+}
+
+#placeholderToolbar{
+    flex-grow: 4;
+}
+
+.ui.sidebar{
+    background: #d2efffc8 !important;
+    width: 170px  !important;
+}
+
+.item{
+    padding: 8px !important;
+}
