@@ -9,6 +9,7 @@ export class CustomArrow {
         this.head_length = .3;
         this.tailVector = tailVector;
         this.tipVector = tipVector;
+        
         // Array Head (cone)
         var geometry = new THREE.ConeGeometry(this.head_width, this.head_length, 5);
         var material = new THREE.MeshBasicMaterial({ color: 0xff0000 });

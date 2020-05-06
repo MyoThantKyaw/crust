@@ -166,7 +166,6 @@ function init() {
 
     }, undefined, function (err) { console.log(err) });
 
-
     var upperMantleLoader = new GLTFLoader();
     upperMantleLoader.load("models/upperMantle.glb", function (gltf) {
         upperMantle = gltf.scene;
@@ -190,7 +189,6 @@ function init() {
     hemiLight.position.set(0, 10, 0);
     scene.add(hemiLight);
 
-
     var textureLoader = new THREE.TextureLoader();
 
     var waterGeometry = new THREE.PlaneBufferGeometry(20, 20);
@@ -210,7 +208,7 @@ function init() {
     groupSial.add(water);
     
     addLabels();
-   
+
 }
 
 let labels = ["တိုက္ၾကီးမ်ားေအာက္ရွိ \n      အေပၚယံလႊာ", "ဆီအယ္", "ကမၻာ႔အေပၚယံလႊာ", "ဆီမာ", "ကမၻာ႔အေပၚယံလႊာ", "ကမၻာ႔ၾကားလႊာအေပၚပိုင္း", "သမုဒၵရာေအာက္ခင္းရွိ \n  ကမၻာ႔အေပၚယံလႊာ"]
